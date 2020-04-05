@@ -41,7 +41,9 @@
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="gallery.php" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="fabriquer_levain.php" class="nav-link">Le levain</a></li>
+                <li class="nav-item"><a href="fabriquer_pain.php" class="nav-link">Le pain</a></li>
+                <li class="nav-item"><a href="gallery.php" class="nav-link">Galerie</a></li>
             </ul>
         </div>
     </div>

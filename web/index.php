@@ -22,14 +22,14 @@ include "header.php";
                 <h2 class="subheading">Bienvenue, frère (et soeur) du levain!</h2>
                 <h1>Le pain au levain, pour tout un chacun</h1>
                 <p class="mb-4">On va vous aider à le faire &#x1F4AA;</p>
-                <p><a href="#" class="btn btn-primary mr-md-4 py-2 px-4">Learn more <span
+                <p><a href="#7etapes" class="btn btn-primary mr-md-4 py-2 px-4">En savoir plus<span
                                 class="ion-ios-arrow-forward"></span></a></p>
             </div>
         </div>
     </div>
 </div>
 
-<section class="ftco-section ftco-no-pt">
+<section class="ftco-section ftco-no-pt" id="7etapes">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 py-5 order-md-last">
