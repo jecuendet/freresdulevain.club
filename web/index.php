@@ -61,7 +61,7 @@ include "header.php";
                                     Ce processus est hautement contraint par la température et le temps.
                                 </p>
                             </div>
-                            <a href="fabriquer_levain.php"
+                            <a href="levain.php"
                                class="btn-custom d-flex align-items-center justify-content-center"><span
                                         class="ion-ios-arrow-round-forward"></span></a>
                         </div>
@@ -84,7 +84,7 @@ include "header.php";
                                 Il faudra à ce mélange, du temps et de la chaleur pour obtenir une pâte qui lève
                                 </p>
                             </div>
-                            <a href="fabriquer_pain.php"
+                            <a href="pain.php"
                                class="btn-custom d-flex align-items-center justify-content-center"><span
                                         class="ion-ios-arrow-round-forward"></span></a>
                         </div>

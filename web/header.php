@@ -54,9 +54,9 @@ function if_menu_active($ifmenu)
             <ul class="navbar-nav m-auto">
                 <li class="nav-item <?php echo if_menu_active("home"); ?>"><a href="index.php" class="nav-link">Home</a>
                 </li>
-                <li class="nav-item <?php echo if_menu_active("levain"); ?>"><a href="fabriquer_levain.php"
+                <li class="nav-item <?php echo if_menu_active("levain"); ?>"><a href="levain.php"
                                                                               class="nav-link">Le levain</a></li>
-                <li class="nav-item <?php echo if_menu_active("pain"); ?>"><a href="fabriquer_pain.php"
+                <li class="nav-item <?php echo if_menu_active("pain"); ?>"><a href="pain.php"
                                                                               class="nav-link">Le pain</a></li>
                 <li class="nav-item <?php echo if_menu_active("farine"); ?>"><a href="farine.php" class="nav-link">La
                         farine</a></li>
