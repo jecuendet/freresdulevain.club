@@ -11,13 +11,53 @@
 include "header.php";
 ?>
 
+<section class="ftco-section testimony-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-7 text-center heading-section ftco-animate">
+                <span class="subheading">La recette</span>
+                <h2 class="mb-4">La recette du pain au levain</h2>
+            </div>
+        </div>
+        <div class="row ftco-animate">
+            <div class="col-md-12">
+                <div class="item">
+                    <div class="testimony-wrap py-4">
+                        <div class="text">
+                            <strong> Recette de base</strong>
+                            <ul>
+                                <li>1kg de farine</li>
+                                <li>30-40g de levain</li>
+                                <li>20g de sel</li>
+                                <li>580ml d'eau</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="testimony-wrap py-4">
+                        <div class="text">
+                            <strong> Recette de base</strong>
+                            <ul>
+                                <li>1kg de farine</li>
+                                <li>30-40g de levain</li>
+                                <li>20g de sel</li>
+                                <li>580ml d'eau</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="ftco-section ftco-no-pt ftco-no-pb bg-light">
     <div class="container">
         <div class="row d-flex">
             <div class="col-md-6 d-flex">
                 <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end"
-                     style="background-image:url(images/about.jpg);">
+                     style="background-image:url(images/pain_crusti.jpg);">
                 </div>
             </div>
             <div class="col-md-6 pl-md-5">
