@@ -8,6 +8,7 @@
 <body>
 
 <?php
+$current_menu = "home";
 include "header.php";
 ?>
 

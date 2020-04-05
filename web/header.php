@@ -1,3 +1,15 @@
+<?php
+function if_menu_active($ifmenu)
+{
+    global $current_menu;
+    if ($ifmenu == $current_menu) {
+        return "active";
+    }
+    return "";
+}
+
+?>
+
 <div class="container pt-5 pb-4">
     <div class="row justify-content-between">
         <div class="col-md-8 order-md-last">
@@ -40,12 +52,18 @@
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav m-auto">
-                <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="fabriquer_levain.php" class="nav-link">Le levain</a></li>
-                <li class="nav-item"><a href="fabriquer_pain.php" class="nav-link">Le pain</a></li>
-                <li class="nav-item"><a href="farine.php" class="nav-link">La farine</a></li>
-                <li class="nav-item"><a href="gallery.php" class="nav-link">Galerie</a></li>
-                <li class="nav-item"><a href="links.php" class="nav-link">Liens</a></li>
+                <li class="nav-item <?php echo if_menu_active("home"); ?>"><a href="index.php" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item <?php echo if_menu_active("levain"); ?>"><a href="fabriquer_levain.php"
+                                                                              class="nav-link">Le levain</a></li>
+                <li class="nav-item <?php echo if_menu_active("pain"); ?>"><a href="fabriquer_pain.php"
+                                                                              class="nav-link">Le pain</a></li>
+                <li class="nav-item <?php echo if_menu_active("farine"); ?>"><a href="farine.php" class="nav-link">La
+                        farine</a></li>
+                <li class="nav-item <?php echo if_menu_active("galerie"); ?>"><a href="galerie.php" class="nav-link">Galerie</a>
+                </li>
+                <li class="nav-item <?php echo if_menu_active("links"); ?>"><a href="links.php"
+                                                                              class="nav-link">Liens</a></li>
             </ul>
         </div>
     </div>

@@ -8,6 +8,7 @@
 <body>
 
 <?php
+$current_menu = "galerie";
 include "header.php";
 ?>
 

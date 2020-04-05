@@ -8,6 +8,7 @@
 <body>
 
 <?php
+$current_menu = "farine";
 include "header.php";
 ?>
 
