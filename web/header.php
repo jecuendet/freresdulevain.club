@@ -9,12 +9,33 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-4 d-flex">
+            <div class="social-media">
+                <p class="mb-0 d-flex">
+                    <a href="https://www.youtube.com/channel/UCXKwCaK7h7HBpCBLo6mj8zg"
+                       class="d-flex align-items-center justify-content-center">
+                        <span class="fa fa-youtube"><i class="sr-only">Youtube</i></span>
+                    </a>
+                    <!--
+                    <a href="https://www.youtube.com/channel/UCXKwCaK7h7HBpCBLo6mj8zg"
+                       class="d-flex align-items-center justify-content-center">
+                        <span class="fa fa-facebook"><i class="sr-only">Youtube</i></span>
+                    </a>
+                    -->
+                    <a href="https://www.instagram.com/jeanericcuendet/"
+                       class="d-flex align-items-center justify-content-center">
+                        <span class="fa fa-instagram"><i class="sr-only">Instagram</i></span>
+                    </a>
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container-fluid">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fa fa-bars"></span> Menu
         </button>
         <div class="collapse navbar-collapse" id="ftco-nav">
